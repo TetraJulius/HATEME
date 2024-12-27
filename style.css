@@ -1,0 +1,151 @@
+body { 
+margin : 0;
+padding : 0;
+font : 75% "Trebuchet MS", verdana, tahoma, sans-serif;
+color : #ffffff;
+background: #000000 url(img/HATEME.jpg)  center repeat-y;
+}
+#container { 
+width : 750px;
+margin-left : auto;
+margin-right : auto;
+padding : 0;
+line-height : 1.8em;
+} 
+			/*TOP BANNER*/
+#banner { 
+padding : 5px 0;
+margin-top : 10px;
+height : 100px;
+color : #ffffff;
+background : #fff url(img/bbbbbbb.jpg) no-repeat;
+} 
+			/*TOP NAVIGATION*/
+#navbar { 
+padding : 10px;
+margin-bottom : 20px;
+height : 30px;
+} 
+#navdrop { 
+margin : 0;
+padding : 0 0 20px 0;
+border-bottom : 1px solid #eee;
+} 
+#navdrop li { 
+margin : 0;
+padding : 0;
+display : inline;
+list-style-type : none;
+} 
+#navdrop a:link, #navdrop a:visited { 
+background : inherit;
+float : left;
+padding : 0 20px 10px 20px;
+font-size : 1.2em;
+letter-spacing : 1px;
+text-decoration : none;
+color : #ffffff;
+} 
+#navdrop a:link.active, #navdrop a:visited.active, #navdrop a:hover { 
+color : #9a3466;
+background : inherit;
+background : url(img/pink_menu.gif) no-repeat bottom center;
+} 
+			/*RIGHT SIDEBAR*/
+#sidebar { 
+float : right;
+width : 170px;
+margin-top : 0;
+margin-right : 10px;
+padding-left : 5px;
+border-left : 1px solid #eee;
+color : #666;
+background : #000000;
+} 
+			/*FOOTER*/
+#footer { 
+clear : both;
+height : 60px;
+padding : 5px;
+margin-bottom : 0;
+font-size : 0.9em;
+background : #fff url(img/pink_foot.jpg) no-repeat;
+color : #000;
+} 
+#footer a:link, #footer a:visited { 
+text-decoration : none;
+color : #9c3a6b;
+background : transparent;
+} 
+#footer a:hover { 
+border-bottom : none;
+color : #000;
+background : transparent;
+} 
+			/*ROUNDED CORNERS*/
+.rbroundbox { 
+background : url(img/nt3.gif) repeat;
+} 
+.rbtop div { 
+background : url(img/tl3.gif) no-repeat top left;
+} 
+.rbtop { 
+background : url(img/tr3.gif) no-repeat top right;
+} 
+.rbbot div { 
+background : url(img/bl3.gif) no-repeat bottom left;
+} 
+.rbbot { 
+background : url(img/br3.gif) no-repeat bottom right;
+} 
+.rbtop div, .rbtop, .rbbot div, .rbbot { 
+height : 10px;
+font-size : 1px;
+} 
+.rbcontent { 
+margin : 0 7px;
+} 
+.rbroundbox { 
+float : left;
+width : 520px;
+margin : 1em 2em;
+} 
+			/*TYPOGRAPHY*/
+p { 
+padding : 0 0 5px 10px;
+} 
+h1 { 
+margin : 10px 70px 0 0;
+text-align : right;
+font-size : 170%;
+letter-spacing : 3px;
+} 
+h2 { 
+margin: 0;
+padding : 5px 0 0 15px;
+font-size : 150%;
+letter-spacing : 3px;
+text-transform : uppercase;
+background : inherit;
+color : #333;
+} 
+			/*LINKS*/
+a:link, a:visited { 
+text-decoration : none;
+background : inherit;
+color : #9b3567;
+} 
+a:hover { 
+text-decoration : underline;
+background : inherit;
+color : #fffefe;
+} 
+ul li { 
+color : #9c3a6b;
+list-style-type : square;
+} 
+blockquote {
+font-weight : bold;
+font-style : italic;
+color : #b29b35;
+}
